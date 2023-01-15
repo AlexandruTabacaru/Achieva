@@ -1,0 +1,49 @@
+body{
+    font-family: 'Lato', sans-serif;
+    color: #1A3E4C;
+    background-image: url("https://cdn.discordapp.com/attachments/812970059705614346/1064200280180273233/alextabacaru11_wallpaper_render_8k_4b1249aa-0283-4470-954b-116e828c2b95.png");
+}
+h1{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+label{
+    font-size: 20px;
+}
+form{
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input[type="text"], input[type="password"]{
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #67AFCB;
+    border-radius: 4px;
+    font-size: 20px;
+}
+input[type="submit"]{
+    background-color: #67AFCB;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+a button{
+    background-color: #E4F1F6;
+    color: #1A3E4C;
+    padding: 12px 20px;
+    border: 2px solid #67AFCB;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    margin: 8px 0;
+}

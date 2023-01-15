@@ -1,0 +1,114 @@
+#hamburger-menu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 99;
+  }
+  
+  #hamburger-button {
+    font-size: 24px;
+    padding: 10px;
+    background-color: #1A3E4C;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: #E4F1F6;
+    padding: 20px;
+    width: 200px;
+  }
+  
+  #menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #menu a {
+    color: #1A3E4C;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+  }
+  
+  #menu a:hover {
+    background-color: #67AFCB;
+    color: white;
+
+  }
+
+  #hamburger-menu:hover #menu {
+    display: block;
+  }
+
+body {
+    padding: 50px;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #3F6A6C;
+}
+
+header h1 {
+    color: #BFC3BD;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.goal-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #3F6A6C;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #BFC3BD;
+    color: #342F3E;
+}
+
+.goal-button:hover {
+    background-color: #4A817F;
+    cursor: pointer;
+    color: #fff;
+}
+
+.goals-section {
+    background-color: #E4F1F6;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.goals-section h2 {
+    color: #342F3E;
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+}
+
+.goals-section .goal-card {
+    color: #3F6A6C;
+    font-size: 1.2em;
+    font-family: 'Lato', sans-serif;
+}
+
+.goal-card:hover {
+    background-color: #B88A81;
+    cursor: pointer;
+    color: #fff;
+}

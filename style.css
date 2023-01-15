@@ -1,0 +1,91 @@
+body{
+    background-color: #1A3E4C;;
+    font-size: x-large;
+    font-family: 'Lato', sans-serif;
+    color: #3F6A6Cff; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 36px;
+    color: #B88A81ff; 
+  }
+  
+  ol {
+    list-style: none;
+    width: 80%; 
+    margin: 20px 0;
+    background-color: #BFC3BDff;
+    padding: 20px;
+  }
+  
+  li {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #342F3Eff; 
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  ul li {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #4A817Fff; 
+  }
+
+  #hamburger-menu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 99;
+  }
+  
+  #hamburger-button {
+    font-size: 24px;
+    padding: 10px;
+    background-color: #1A3E4C;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: #E4F1F6;
+    padding: 20px;
+    width: 200px;
+  }
+  
+  #menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #menu a {
+    color: #1A3E4C;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+  }
+  
+  #menu a:hover {
+    background-color: #67AFCB;
+    color: white;
+
+  }
+
+  #hamburger-menu:hover #menu {
+    display: block;
+  }
+  
+  
